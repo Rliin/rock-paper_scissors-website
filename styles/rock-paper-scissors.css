@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.texts, .reset-button{
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 30px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.move-button:hover {
+  opacity: 0.8;
+}
+
+.move-button:active {
+  opacity: 0.5;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.score {
+  margin-top: 80px;
+}
+
+.reset-score-button {
+  background-color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;;
+  font-size: 15px;
+  padding: 8px 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.reset-score-button:hover {
+  opacity: 0.8;
+}
+
+.reset-score-button:active {
+  opacity: 0.5;
+}
